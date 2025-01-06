@@ -1,7 +1,7 @@
 {
-    "id": "pf2e-bzns",
+    "id": "pf2e-bzns-fixes",
     "title": "PF2e Homerules from BZNS",
-    "description": "Модуль с правилами и исправлениями для модуля PF2e от микрочелика из BZNS",
+    "description": "Модуль с правилами и исправлениями для модуля PF2e сделанного для себя и своих парней.",
     "version": "0.0.4",
     "compatibility": {
         "minimum": "12",
