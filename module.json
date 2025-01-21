@@ -1,11 +1,11 @@
 {
   "id": "pf2e-bzns",
-  "url": "https://github.com/ivtag13/BZNS-fixes/tree/main",
-  "manifest": "https://raw.githubusercontent.com/ivtag13/BZNS-fixes/refs/heads/main/module.json?token=GHSAT0AAAAAAC42JEW3FZMIYBEGBMEJSY7EZ4POPMA",
-  "download": "https://github.com/ivtag13/BZNS-fixes/archive/refs/heads/main.zip",
   "title": "PF2e Homerules from BZNS",
   "description": "Модуль с правилами и исправлениями для модуля PF2e от микрочелика из BZNS",
   "version": "0.0.6",
+  "url": "https://github.com/ivtag13/BZNS-fixes/tree/main",
+  "manifest": "https://raw.githubusercontent.com/ivtag13/BZNS-fixes/refs/heads/main/module.json?token=GHSAT0AAAAAAC42JEW3FZMIYBEGBMEJSY7EZ4POPMA",
+  "download": "https://github.com/ivtag13/BZNS-fixes/archive/refs/heads/main.zip",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
