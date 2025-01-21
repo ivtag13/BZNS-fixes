@@ -1,133 +1,137 @@
 {
-    "id": "pf2e-bzns",
-    "title": "PF2e Homerules from BZNS",
-    "description": "Модуль с правилами и исправлениями для модуля PF2e сделанного для себя и своих парней.",
-    "version": "0.0.6",
-    "compatibility": {
-        "minimum": "12",
-        "verified": "12"
-    },
-    "relationships": {
-        "systems": [
-            {
-                "id": "pf2e",
-                "type": "system",
-                "compatibility": {}
-            }
-        ]
-    },
-    "authors": [
-        {
-            "name": "ivtag13",
-            "discord": "ivtag13",
-            "flags": {}
-        }
-    ],
-    "scripts": [
-        "scripts/pf2e-bzns.js"
-    ],
-	"languages": [
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "lang/en.json"
-        }
-    ],
+  "id": "pf2e-bzns",
+  "url": "https://github.com/ivtag13/BZNS-fixes/tree/main",
+  "manifest": "https://raw.githubusercontent.com/ivtag13/BZNS-fixes/refs/heads/main/module.json?token=GHSAT0AAAAAAC42JEW3FZMIYBEGBMEJSY7EZ4POPMA",
+  "download": "https://github.com/ivtag13/BZNS-fixes/archive/refs/heads/main.zip",
+  "title": "PF2e Homerules from BZNS",
+  "description": "Модуль с правилами и исправлениями для модуля PF2e от микрочелика из BZNS",
+  "version": "0.0.6",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "ivtag13",
+      "discord": "ivtag13",
+      "flags": {}
+    }
+  ],
+  "scripts": [
+    "scripts/pf2e-bzns.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
   "packs": [
     {
-        "name": "classes",
-        "label": "Classes",
-        "path": "./packs/classes",
-        "type": "Item",
-        "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-        "system": "pf2e",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
-        },
-        "flags": {}
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
-        "name": "class-features",
-        "label": "Class Features",
-        "path": "./packs/class-features",
-        "type": "Item",
-        "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-        "system": "pf2e",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
-        },
-        "flags": {}
+      "name": "class-features",
+      "label": "Class Features",
+      "path": "packs/class-features",
+      "type": "Item",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
-        "name": "feats",
-        "label": "Feats",
-        "path": "./packs/feats",
-        "type": "Item",
-        "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-        "system": "pf2e",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
-        },
-        "flags": {}
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
-        "name": "actions",
-        "label": "Actions",
-        "path": "./packs/actions",
-        "type": "Item",
-        "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-        "system": "pf2e",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
-        },
-        "flags": {}
+      "name": "actions",
+      "label": "Actions",
+      "path": "packs/actions",
+      "type": "Item",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
-        "name": "equipment",
-        "label": "Equipment",
-        "path": "./packs/equipment",
-        "type": "Item",
-        "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-        "system": "pf2e",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
-        },
-        "flags": {}
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
-        "name": "spells",
-        "label": "Spells",
-        "path": "./packs/spells",
-        "type": "Item",
-        "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-        "system": "pf2e",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
-        },
-        "flags": {}
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
-        "name": "effects",
-        "label": "Effects",
-        "path": "./packs/effects",
-        "type": "Item",
-        "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-        "system": "pf2e",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
-        },
-        "flags": {}
+      "name": "effects",
+      "label": "Effects",
+      "path": "packs/effects",
+      "type": "Item",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
-        ],
-        "packFolders": [
-  {
+  ],
+  "packFolders": [
+    {
       "name": "BZNS fixes",
       "sorting": "m",
       "packs": [
@@ -138,62 +142,63 @@
         "spells",
         "equipment",
         "effects"
-        
-      ]
-  }
-],
-"flags": {
-        "pf2e-bzns": {
-            "pf2e-homebrew": {
-                "featTraits": {
-                    "BZNS": {
-                        "label": "REwork",
-                        "description" : "Feats, Spells and Items with this trait have been fixed or reworked to suit normal play."
-                    },
-                    "BNA": {
-                        "label": "NEWwork",
-                        "description": "New options or features to play."
-                    }
-                },
-                "spellTraits": {
-                    "BZNS": {
-                        "label": "REwork",
-                        "description" : "Feats, Spells and Items with this trait have been fixed or reworked to suit normal play."
-                    },
-                    "BNA": {
-                        "label": "NEWwork",
-                        "description": "New options or features to play."
-                    },
-                    "splash":{
-                        "label":"Splash",
-                        "description": "PF2E.TraitDescriptionSplash"
-                    }
-                },
-                "weaponTraits": {
-                 "BZNS": {
-                        "label": "REwork",
-                        "description" : "Feats, Spells and Items with this trait have been fixed or reworked to suit normal play."
-                    },
-                    "BNA": {
-                        "label": "NEWwork",
-                        "description": "New options or features to play."
-                    },
-                "alchemical-weaponry": {
-                    "label": "Alchemical weaponry",
-                    "description": "A weapon with ability be infused with alchemical items (like bomb-loaded Alchemical crossbow, weapon with attached Weapon siphon or feats with similar mechanic using alchemical items)."
-                }
-                },
-                "equipmentTraints": {
-                    "BZNS": {
-                        "label": "REwork",
-                        "description" : "Feats, Spells and Items with this trait have been fixed or reworked to suit normal play."
-                    },
-                    "BNA": {
-                        "label": "NEWwork",
-                        "description": "New options or features to play."
-                    }
-                }
-            }
-        }
+      ],
+      "color": null,
+      "folders": []
     }
+  ],
+  "flags": {
+    "pf2e-bzns": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "BZNS": {
+            "label": "REwork",
+            "description": "Feats, Spells and Items with this trait have been fixed or reworked to suit normal play."
+          },
+          "BNA": {
+            "label": "NEWwork",
+            "description": "New options or features to play."
+          }
+        },
+        "spellTraits": {
+          "BZNS": {
+            "label": "REwork",
+            "description": "Feats, Spells and Items with this trait have been fixed or reworked to suit normal play."
+          },
+          "BNA": {
+            "label": "NEWwork",
+            "description": "New options or features to play."
+          },
+          "splash": {
+            "label": "Splash",
+            "description": "PF2E.TraitDescriptionSplash"
+          }
+        },
+        "weaponTraits": {
+          "BZNS": {
+            "label": "REwork",
+            "description": "Feats, Spells and Items with this trait have been fixed or reworked to suit normal play."
+          },
+          "BNA": {
+            "label": "NEWwork",
+            "description": "New options or features to play."
+          },
+          "alchemical-weaponry": {
+            "label": "Alchemical weaponry",
+            "description": "A weapon with ability be infused with alchemical items (like bomb-loaded Alchemical crossbow, weapon with attached Weapon siphon or feats with similar mechanic using alchemical items)."
+          }
+        },
+        "equipmentTraints": {
+          "BZNS": {
+            "label": "REwork",
+            "description": "Feats, Spells and Items with this trait have been fixed or reworked to suit normal play."
+          },
+          "BNA": {
+            "label": "NEWwork",
+            "description": "New options or features to play."
+          }
+        }
+      }
+    }
+  }
 }
