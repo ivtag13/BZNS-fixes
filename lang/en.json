@@ -1,4 +1,13 @@
 {
   "pf2e-bzns": {
+    "SpecificRule":{
+      "AlchemicalWeaponry": "Alchemical Weaponry",
+      "AdvancedAlchemicalWeaponry": "Advanced Alchemical Weaponry",
+      "MagicalPotency":"Magical Potency",
+      "MagicalEmpowerment":"Magical Empowerment"
+      
+    },
+    "TraitEtchedOnAStaff": "Etched on Staff",
+    "TraitEtchedOnAStaffClothingOrJewelry": "Etched on Staff, Clothing or Jewelry"
   }
 }

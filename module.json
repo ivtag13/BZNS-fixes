@@ -1,10 +1,10 @@
 {
   "id": "pf2e-bzns",
   "title": "PF2e Homerules from BZNS",
-  "description": "Модуль с правилами и исправлениями для модуля PF2e от микрочелика из BZNS",
-  "version": "0.0.6",
+  "description": "Module for PF2e with 'little grain' of homerules of BZNS (which you can off or ignore, ofc)",
+  "version": "0.1.7",
   "url": "https://github.com/ivtag13/BZNS-fixes/tree/main",
-  "manifest": "https://raw.githubusercontent.com/ivtag13/BZNS-fixes/refs/heads/main/module.json?token=GHSAT0AAAAAAC42JEW3FZMIYBEGBMEJSY7EZ4POPMA",
+  "manifest": "https://raw.githubusercontent.com/ivtag13/BZNS-fixes/refs/heads/main/module.json",
   "download": "https://github.com/ivtag13/BZNS-fixes/archive/refs/heads/main.zip",
   "compatibility": {
     "minimum": "12",
@@ -128,12 +128,25 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "journals",
+      "label": "BZNS Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
     {
       "name": "BZNS fixes",
-      "sorting": "m",
+      "sorting": "a",
       "packs": [
         "classes",
         "class-features",
@@ -141,7 +154,8 @@
         "actions",
         "spells",
         "equipment",
-        "effects"
+        "effects",
+        "journals"
       ],
       "color": null,
       "folders": []
@@ -152,22 +166,14 @@
       "pf2e-homebrew": {
         "featTraits": {
           "BZNS": {
-            "label": "REwork",
-            "description": "Feats, Spells and Items with this trait have been fixed or reworked to suit normal play."
-          },
-          "BNA": {
-            "label": "NEWwork",
-            "description": "New options or features to play."
+            "label": "BZNS",
+            "description": "Feats, Features, Spells and Items with this trait have been added or reworked with BZNS module."
           }
         },
         "spellTraits": {
           "BZNS": {
-            "label": "REwork",
-            "description": "Feats, Spells and Items with this trait have been fixed or reworked to suit normal play."
-          },
-          "BNA": {
-            "label": "NEWwork",
-            "description": "New options or features to play."
+            "label": "BZNS",
+            "description": "Feats, Features, Spells and Items with this trait have been added or reworked with BZNS module."
           },
           "splash": {
             "label": "Splash",
@@ -176,26 +182,18 @@
         },
         "weaponTraits": {
           "BZNS": {
-            "label": "REwork",
-            "description": "Feats, Spells and Items with this trait have been fixed or reworked to suit normal play."
-          },
-          "BNA": {
-            "label": "NEWwork",
-            "description": "New options or features to play."
+            "label": "BZNS",
+            "description": "Feats, Features, Spells and Items with this trait have been added or reworked with BZNS module."
           },
           "alchemical-weaponry": {
             "label": "Alchemical weaponry",
-            "description": "A weapon with ability be infused with alchemical items (like bomb-loaded Alchemical crossbow, weapon with attached Weapon siphon or feats with similar mechanic using alchemical items)."
+            "description": "A weapon with ability be infused or used with alchemical items."
           }
         },
-        "equipmentTraints": {
+        "equipmentTraits": {
           "BZNS": {
-            "label": "REwork",
-            "description": "Feats, Spells and Items with this trait have been fixed or reworked to suit normal play."
-          },
-          "BNA": {
-            "label": "NEWwork",
-            "description": "New options or features to play."
+            "label": "BZNS",
+            "description": "Feats, Features, Spells and Items with this trait have been added or reworked with BZNS module."
           }
         }
       }
