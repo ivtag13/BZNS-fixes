@@ -1,4 +1,11 @@
-# BZNS-fixes
-* Данный репозиторий служит для отслеживания прогресса и резервного копирования.
-* Нужно же как-то двигать себя в правильном направлении, да?
-1. Первая цель - создать нормальные условия для репозитория. https://github.com/foundryvtt/pf2e/wiki/Helping-with-Data-Entry
+## BZNS fixes
+* Module for PF2e with 'little grain' of homerules of BZNS (which you can ignore, ofc)
+* Most of content was create for private use
+
+* This module provide vision of one person for few classes and mechanics.
+* What if spellcasters improved at the same levels as martials?
+* If they had fundamental runes too.
+* If they doesn't have levels with nothing.
+* If designer for spellcasters doesn't was so.. khem.
+* In general, in module you can find journal with all changes.
+* Enjoy?
