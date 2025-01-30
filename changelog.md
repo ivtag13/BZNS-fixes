@@ -7,13 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.8] - 2025-01-31
 
-### Added
-
-* Nothing...
 
 ### Changed
 
-* Fundamental runes +1, +2 and +3 now automated
+* Fundamental runes for magic +1, +2 and +3 now automated
 * Alchemist updated to new version (with automation)
 * Github repository now public (what a shame)
 
