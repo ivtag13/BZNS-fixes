@@ -5,14 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.1.8] - 2025-01-31
+## [0.1.9] - 2025-02-07
 
+### Added
+
+* First reworked version of Magus
 
 ### Changed
 
-* Fundamental runes for magic +1, +2 and +3 now automated
+* Fixed bug with Psychic's Psi Cantrips and Amps (it add two Focus point instead of one)
+
+## [0.1.8] - 2025-01-31
+
+### Changed
+
+* Fundamental runes +1, +2 and +3 now automated
 * Alchemist updated to new version (with automation)
 * Github repository now public (what a shame)
+* Some tweaks in Psychic class
 
 ## [0.1.7] - 2025-01-14
 

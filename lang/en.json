@@ -1,7 +1,13 @@
 {
   "pf2e-bzns": {
     "SpecificRule":{
-      "AlchemicalWeaponry": "Alchemical Weaponry",
+      "Magus": {
+        "Spellstrike": {
+          "OneActionRecharge": "You recharge your Spellstrike as a single action, which has the concentrate trait",
+          "CriticalStrike": "On critical hit, your target of Spellstrike get the outcome one degree of success worse than the result of it roll."
+        }
+      },
+            "AlchemicalWeaponry": "Alchemical Weaponry",
       "AdvancedAlchemicalWeaponry": "Advanced Alchemical Weaponry",
       "MagicalPotency":"Magical Potency",
       "MagicalEmpowerment":"Magical Empowerment"
