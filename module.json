@@ -27,8 +27,6 @@
     }
   ],
   "scripts": [
-    "scripts/probe.js",
-    "scripts/settings.js"
   ],
   "languages": [
     {
