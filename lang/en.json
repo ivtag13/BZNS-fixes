@@ -1,13 +1,21 @@
 {
   "pf2e-bzns": {
     "SpecificRule":{
-      "Magus": {
-        "Spellstrike": {
-          "OneActionRecharge": "You recharge your Spellstrike as a single action, which has the concentrate trait",
-          "CriticalStrike": "On critical hit, your target of Spellstrike get the outcome one degree of success worse than the result of it roll."
+      "Class":{
+        // "Class" use slug, so write with low case
+        "magus":{
+          "Spellstrike": {
+            "OneActionRecharge": "You recharge your Spellstrike as a single action, which has the concentrate trait",
+            "CriticalStrike": "On critical hit, your target of Spellstrike get the outcome one degree of success worse than the result of it roll."
+          },
+          "Pinnacle": "Your magical practice with weapons has paid off. You gain a single 10th-rank spell slot and can prepare a spell in that slot using magus spellcasting but you don't gain access to 10th-rank spells. Unlike with other spell slots, you can't use 10-rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You don't gain more 10th-rank spells as you level up."
+        },
+        "summoner":{
+          "Pinnacle": "Your magical connection with the eidolon has become stronger than ever. You gain a single 10th-rank spell slot and can prepare a spell in that slot using summoner spellcasting but you don't gain access to 10th-rank spells. Unlike with other spell slots, you can't use 10-rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You don't gain more 10th-rank spells as you level up."
         }
       },
-            "AlchemicalWeaponry": "Alchemical Weaponry",
+
+      "AlchemicalWeaponry": "Alchemical Weaponry",
       "AdvancedAlchemicalWeaponry": "Advanced Alchemical Weaponry",
       "MagicalPotency":"Magical Potency",
       "MagicalEmpowerment":"Magical Empowerment"
