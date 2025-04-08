@@ -5,11 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.12] - 2025-04-09
+
+### Added
+
+* Added changed Eidolon for Gradual Ability Boost rule. Work only with Companion Compendia.
+
+## [0.1.11] - 2025-03-09
+
+### Added
+
+* Base for Kineticist and few feats of "dubious resistance" (like "metal" dubious resistance enabling slashing, piercing and bludgeoning resistances via option on action sheet, be cause metal resistance RAW work against metal weapon)
+
 ## [0.1.10] - 2025-03-05
 
 ### Added
 
-* Few fixes for Kineticist
+* First reworked version of Summoner
+* Few feat-fixes for Kineticist
 
 ## [0.1.9] - 2025-02-07
 

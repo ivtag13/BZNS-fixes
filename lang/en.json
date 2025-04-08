@@ -12,6 +12,13 @@
         },
         "summoner":{
           "Pinnacle": "Your magical connection with the eidolon has become stronger than ever. You gain a single 10th-rank spell slot and can prepare a spell in that slot using summoner spellcasting but you don't gain access to 10th-rank spells. Unlike with other spell slots, you can't use 10-rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You don't gain more 10th-rank spells as you level up."
+        },
+        "kineticist":{
+          "Impulse":{
+            "ImpulseJunction":{
+              "Metal": "Choose acid, electricity, or piercing. Until the start of your next turn, each time a creature touches you or damages you with an unarmed melee attack or nonreach melee weapon, it takes damage of the chosen type equal to half your level (minimum 1 damage). @UUID[Compendium.pf2e.feat-effects.Item.rCsmv66TzQhte4Gp]{Effect: Metal Impulse Junction}"
+            }
+          }
         }
       },
 
