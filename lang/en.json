@@ -2,7 +2,6 @@
   "pf2e-bzns": {
     "SpecificRule":{
       "Class":{
-        // "Class" use slug, so write with low case
         "magus":{
           "Spellstrike": {
             "OneActionRecharge": "You recharge your Spellstrike as a single action, which has the concentrate trait",
@@ -19,14 +18,20 @@
               "Metal": "Choose acid, electricity, or piercing. Until the start of your next turn, each time a creature touches you or damages you with an unarmed melee attack or nonreach melee weapon, it takes damage of the chosen type equal to half your level (minimum 1 damage). @UUID[Compendium.pf2e.feat-effects.Item.rCsmv66TzQhte4Gp]{Effect: Metal Impulse Junction}"
             }
           }
+        },
+        "alchemist": {   
+          "AlchemicalWeaponry": "Alchemical Weaponry",
+          "AdvancedAlchemicalWeaponry": "Advanced Alchemical Weaponry",
+          "ChirurgeonFieldBenefit": "Chirurgeon's Field Benefit"
         }
       },
 
-      "AlchemicalWeaponry": "Alchemical Weaponry",
-      "AdvancedAlchemicalWeaponry": "Advanced Alchemical Weaponry",
+
+
+
       "MagicalPotency":"Magical Potency",
       "MagicalEmpowerment":"Magical Empowerment"
-      
+
     },
     "TraitEtchedOnAStaff": "Etched on Staff",
     "TraitEtchedOnAStaffClothingOrJewelry": "Etched on Staff, Clothing or Jewelry"
