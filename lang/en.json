@@ -22,17 +22,22 @@
         "alchemist": {   
           "AlchemicalWeaponry": "Alchemical Weaponry",
           "AdvancedAlchemicalWeaponry": "Advanced Alchemical Weaponry",
-          "ChirurgeonFieldBenefit": "Chirurgeon's Field Benefit"
+          "ChirurgeonFieldBenefit": "Chirurgeon's Field Benefit",
+          "PowerfulAlchemy": "Powerful Alchemy adjust DC"
         }
       },
-
-
-
-
-      "MagicalPotency":"Magical Potency",
-      "MagicalEmpowerment":"Magical Empowerment"
-
-    },
+      "MagicalPotency": "Magical Potency",
+      "MagicalEmpowerment": "Magical Empowerment",
+      "APB":{ 
+        "PB": "Potency Bonus",
+        "+1":"Potency Bonus +1",
+        "+2":"Potency Bonus +2",
+        "+3":"Potency Bonus +3",
+        "new1":"Select skill to gain +1 potency bonus",
+        "1to2":"Select skill to upgrade with +2 potency bonus",
+        "2to3":"Select skill to upgrade with +3 potency bonus"
+            }
+                    },
     "TraitEtchedOnAStaff": "Etched on Staff",
     "TraitEtchedOnAStaffClothingOrJewelry": "Etched on Staff, Clothing or Jewelry"
   }
