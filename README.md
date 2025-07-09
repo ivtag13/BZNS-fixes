@@ -4,8 +4,8 @@
 
 * This module provide vision of one person for few classes and mechanics.
 * What if spellcasters improved at the same levels as martials?
-* If they had fundamental runes too.
-* If they doesn't have levels with nothing.
-* If designer for spellcasters doesn't was so.. khem.
+* What if they are had fundamental runes too?
+* What if they doesn't have levels with nothing?
+* What if designer for spellcasters doesn't was so... khem.
 * In general, in module you can find journal with all changes.
 * Enjoy?
