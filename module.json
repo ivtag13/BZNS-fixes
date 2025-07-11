@@ -45,7 +45,7 @@
       "label": "Classes",
       "path": "packs/classes",
       "type": "Item",
-      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -71,7 +71,7 @@
       "label": "Feats",
       "path": "packs/feats",
       "type": "Item",
-      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -97,7 +97,7 @@
       "label": "Equipment",
       "path": "packs/equipment",
       "type": "Item",
-      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -110,7 +110,7 @@
       "label": "Spells",
       "path": "packs/spells",
       "type": "Item",
-      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -136,7 +136,20 @@
       "label": "BZNS Journals",
       "path": "packs/journals",
       "type": "JournalEntry",
-      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+     {
+      "name": "other",
+      "label": "Other",
+      "path": "packs/other",
+      "type": "Item",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -157,7 +170,8 @@
         "spells",
         "equipment",
         "effects",
-        "journals"
+        "journals",
+        "other"
       ],
       "color": null,
       "folders": []
