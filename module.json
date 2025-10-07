@@ -194,6 +194,10 @@
           "splash": {
             "label": "Splash",
             "description": "PF2E.TraitDescriptionSplash"
+          },
+          "impulse": {
+            "label": "Impulse",
+            "description": "Things with this trait have been added or reworked with BZNS module."
           }
         },
         "weaponTraits": {

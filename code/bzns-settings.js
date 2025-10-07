@@ -48,7 +48,7 @@ async function variantFeats() {
       ) {
         campaignFeatSections.push({
           id: "skillArchetypeClass",
-          label: "Alternate Archetype Progression with Skills",
+          label: "Alternative Archetype Progression with Skills",
           supported: ["class", "skill"],
           slots: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19],
         });
@@ -59,7 +59,7 @@ async function variantFeats() {
       if (!campaignFeatSections.find((section) => section.id === "altArchetypeClass")) {
         campaignFeatSections.push({
           id: "altArchetypeClass",
-          label: "Alternate Archetype Progression",
+          label: "Alternative Archetype Progression",
           supported: ["class"],
           slots: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19],
         });
