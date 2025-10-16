@@ -2,7 +2,7 @@
   "id": "pf2e-bzns",
   "title": "PF2e Homerules from BZNS",
   "description": "Module for PF2e with 'little grain' of homerules of BZNS (which you can off or ignore, ofc)",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "url": "https://github.com/ivtag13/BZNS-fixes/tree/main",
   "manifest": "https://raw.githubusercontent.com/ivtag13/BZNS-fixes/refs/heads/main/module.json",
   "download": "https://github.com/ivtag13/BZNS-fixes/archive/refs/heads/main.zip",
@@ -197,7 +197,15 @@
           },
           "impulse": {
             "label": "Impulse",
-            "description": "Things with this trait have been added or reworked with BZNS module."
+            "description": "The primary magical actions kineticists use are called impulses. You can use an impulse only if your kinetic aura is active and channeling that element, and only if you have a hand free to shape the elemental flow. The impulse trait means the action has the concentrate trait unless another ability changes this. If an impulse allows you to choose an element, you can choose any element you're channeling, and the impulse gains that element's trait."
+          },
+          "overflow": {
+            "label": "Overflow",
+            "description": "Powerful impulses temporarily overdraw the energy of your kinetic gate. When you use an impulse that has the overflow trait, your kinetic aura deactivates until you revitalize it (typically with Channel Elements). Extinguishing your element this severely is taxing, and consequently, you can use only one overflow impulse per round, even if you reactivate your kinetic gate."
+          },
+          "composite": {
+            "label": "Composite",
+            "description": "A composite impulse combines multiple elements. You can gain an impulse with the composite trait only if your kinetic elements include all the elements listed in the impulse's traits."
           }
         },
         "weaponTraits": {
