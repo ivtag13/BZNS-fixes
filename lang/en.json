@@ -17,7 +17,7 @@
           "SkillJunction":"Skill Junction",
           "ImpulseJunction":
           {
-            "Metal": "Until the start of your next turn, each time a creature touches you or damages you with an unarmed melee attack or nonreach melee weapon, it takes @Damage[(max(floor(@actor.level / 2), 1))[acid]]{acid}, @Damage[(max(floor(@actor.level / 2), 1))[piercing]]{piercing} or @Damage[(max(floor(@actor.level / 2), 1))[electricity]]{electricity} damage equal to half your level (minimum 1 damage). Current damage — @Damage[(max(floor(@actor.level / 2), 1))[untyped]]"
+            "Metal": "Until the start of your next turn, each time a creature touches you or damages you with an unarmed melee attack or nonreach melee weapon, it takes acid, piercing or electricity damage equal to half your level (minimum 1 damage)."
           },
           "AuraJunctionLabel": "Aura Junction",
           "ImpulseOnly":{
@@ -25,8 +25,8 @@
               "Air": "Before or after the other effects of the impulse, you can Stride up to half your Speed and Step in any order. If you have a fly Speed, you can Fly up to half your fly Speed instead.",
               "Earth" : "Fragments of stone float around you or your ally, granting you a +1 circumstance bonus to AC until the start of your next turn. @UUID[Compendium.pf2e.feat-effects.Item.09oP0FBBAhXOS4JW]{Effect: Earth Impulse Junction}",
               "Fire": "Increase the damage die size of fire damage dealt by the impulse by one step. Increase DC and attack for that impulse by 2.",
-              "Metal": "Until the start of your next turn, each time a creature touches you or damages you with an unarmed melee attack or nonreach melee weapon, it takes @Damage[(max(floor(@actor.level / 2), 1))[acid]]{acid}, @Damage[(max(floor(@actor.level / 2), 1))[piercing]]{piercing} or @Damage[(max(floor(@actor.level / 2), 1))[electricity]]{electricity} damage equal to half your level (minimum 1 damage). Each time you are touched, you can choose a new damage type. @UUID[Compendium.pf2e-bzns.effects.Item.DZ9fYwy3dEScaor6]{Effect: Metal Impulse Junction}",
-              "MetalEffect":"Until the start of your next turn, each time a creature touches you or damages you with an unarmed melee attack or nonreach melee weapon, it takes @Damage[(max(floor(@actor.level / 2), 1))[acid]]{acid}, @Damage[(max(floor(@actor.level / 2), 1))[piercing]]{piercing} or @Damage[(max(floor(@actor.level / 2), 1))[electricity]]{electricity} damage equal to half your level (minimum 1 damage). Each time you are touched, you can choose a new damage type.",
+              "Metal": "Until the start of your next turn, each time a creature touches you or damages you with an unarmed melee attack or nonreach melee weapon, it takes acid, piercing or electricity damage equal to half your level (minimum 1 damage). Each time you are touched, you can choose a new damage type. @UUID[Compendium.pf2e-bzns.effects.Item.DZ9fYwy3dEScaor6]{Effect: Metal Impulse Junction}",
+              "MetalEffect":"Until the start of your next turn, each time a creature touches you or damages you with an unarmed melee attack or nonreach melee weapon, it takes acid, piercing or electricity damage equal to half your level (minimum 1 damage). Each time you are touched, you can choose a new damage type.",
               "Water": "After the impulse's other effects, you can move creatures targeted by the impulse or in its area 5 feet in any direction, or 10 feet if it's in a body of water. This can't move the creature into the air. You can choose only a creatures that's willing to be moved, that failed its save against the impulse, or that you succeeded at an impulse attack roll against.",
               "Wood": "You (or any ally targeted by impulse) gain temporary Hit Points equal to your level that last until the start of your next turn. Ally gain temporal immunity for this effect by 10 minutes. @UUID[Compendium.pf2e.feat-effects.Item.rCsmv66TzQhte4Gp]{Effect: Wood Impulse Junction}"
             },
@@ -35,7 +35,7 @@
               "Earth" : "If the target is on the ground, it's knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{prone}; if it isn't on the ground, it descends up to 60 feet (you choose the distance). Prone target don't get cover bonus from your impulses.",
               "Fire": "The target takes 1d6 persistent fire damage. You gain an item bonus to this persistent damage equal to your tripled item bonus to impulse attack rolls, such as from a gate attenuator.",
               "Metal": "The target takes 1d6 persistent bleed damage; if the creature has the metal trait or is made of metal, it instead takes 1d6 persistent damage with no type from rust. You gain an item bonus to this persistent damage equal to your item bonus to impulse attack rolls, such as from a gate attenuator. Also you can Disarm or Shove your target using Impulse attack roll instead of Athletics.",
-              "MetalEffect": "You can @Check[impulse|defense:reflex]{disarm} or @Check[impulse|defense:fortitude]{shove} your target using impulse attack roll instead of Athletics. @UUID[Compendium.pf2e.other-effects.Item.PuDS0DEq0CnaSIFV]{Effect: Disarm (Success)}",
+              "MetalEffect": "You can [[/act disarm check=impulse]]{disarm} or [[/act shove check=impulse]]{shove} your target using impulse attack roll instead of Athletics. @UUID[Compendium.pf2e.other-effects.Item.PuDS0DEq0CnaSIFV]{Effect: Disarm (Success)}",
               "Water": "The blast deals 2 splash damage per damage die of the blast, with the same damage type and your target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{off-guard} until start of your next turn. @UUID[Compendium.pf2e-bzns.effects.Item.5mtycVKk5WD5jPMI]{Effect: Water Critical Blast}",
               "Wood": "If the target of the critical hit is adjacent to a surface, roots entangle it. The target is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{restrained} and must spend an Interact action to attempt an @Check[athletics|dc:10|showDC:all] check to pull itself free. The target doesn't become stuck if it is incorporeal, is liquid, or could otherwise escape without effort. @UUID[Compendium.pf2e-bzns.effects.Item.8Al5RY5h0QrqUrFU]{Effect: Wood Critical Blast}"
             },
@@ -43,8 +43,8 @@
               "Air": "You and any ally that starts its turn in the aura gets a +10-foot status bonus to land Speed until the end of that turn, and to fly Speed if applicable. You and any ally in the aura can use a free action Fly 0 to hover in place if you have a fly speed.",
               "Earth": "Squares in the aura are greater difficult terrain for your enemies, but only if moving into the square would make the enemy farther away from you.",
               "Fire": "Enemies in your kinetic aura gain weakness to fire from your fire impulses. The weakness is equal to half your level (minimum weakness 1). In addition, the DC of any flat checks to end persistent fire damage increases by 3.",
-              "Metal": "Your enemies in the aura take a –1 status penalty to attacks with metal objects, and they take a –1 status penalty to AC if they're wearing metal armor, have the metal trait, or are made of metal. In addition, you can @Check[impulse|defense:reflex]{disarm} or @Check[impulse|defense:fortitude]{shove} enemies in your aura when they critically hit you or your allies using your impulse attack modifier instead of athletics.",
-              "MetalEffect": "You can @Check[impulse|defense:reflex]{disarm} or @Check[impulse|defense:fortitude]{shove} enemies in your aura when they critically hit you or your allies using your impulse attack modifier instead of athletics.",
+              "Metal": "Your enemies in the aura take a –1 status penalty to attacks with metal objects, and they take a –1 status penalty to AC if they're wearing metal armor, have the metal trait, or are made of metal. In addition, you can [[/act disarm check=impulse]]{disarm} or [[/act shove check=impulse]]{shove} enemies in your aura when they critically hit you or your allies using your impulse attack modifier instead of athletics.",
+              "MetalEffect": "You can [[/act disarm check=impulse]]{disarm} or [[/act shove check=impulse]]{shove} enemies in your aura when they critically hit you or your allies using your impulse attack modifier instead of athletics.",
               "Water": "The aura becomes saturated with humidity, and water moves as you please. Non-magical fires in the aura are extinguished, and creatures in the aura gain fire resistance equal to half your level. Any Flat DC for end magical and alchemical persistent fire lower by 5.",
               "Wood": "Life-giving blossoms spring up around you. Any ally that begins its turn in the aura gains temporary Hit Point equal to third of your level (rounds up) that lasts until the start of its next turn."
             }
@@ -67,7 +67,8 @@
         "new1":"Select skill to gain +1 potency bonus",
         "1to2":"Select skill to upgrade with +2 potency bonus",
         "2to3":"Select skill to upgrade with +3 potency bonus"
-            }
+            },
+      "ChooseSkill": "Choose a skill"
                     },
     "TraitEtchedOnAStaff": "Etched on Staff",
     "TraitEtchedOnAStaffClothingOrJewelry": "Etched on Staff, Clothing or Jewelry"
