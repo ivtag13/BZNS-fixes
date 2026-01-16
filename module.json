@@ -2,7 +2,7 @@
   "id": "pf2e-bzns",
   "title": "PF2e Homerules from BZNS",
   "description": "Module for PF2e with 'little grain' of homerules of BZNS (which you can off or ignore, ofc)",
-  "version": "0.2.4.2",
+  "version": "0.2.5",
   "url": "https://github.com/ivtag13/BZNS-fixes/tree/main",
   "manifest": "https://raw.githubusercontent.com/ivtag13/BZNS-fixes/refs/heads/main/module.json",
   "download": "https://github.com/ivtag13/BZNS-fixes/archive/refs/heads/main.zip",

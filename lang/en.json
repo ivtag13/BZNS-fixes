@@ -47,6 +47,9 @@
               "MetalEffect": "You can [[/act disarm check=impulse]]{disarm} or [[/act shove check=impulse]]{shove} enemies in your aura when they critically hit you or your allies using your impulse attack modifier instead of athletics.",
               "Water": "The aura becomes saturated with humidity, and water moves as you please. Non-magical fires in the aura are extinguished, and creatures in the aura gain fire resistance equal to half your level. Any Flat DC for end magical and alchemical persistent fire lower by 5.",
               "Wood": "Life-giving blossoms spring up around you. Any ally that begins its turn in the aura gains temporary Hit Point equal to third of your level (rounds up) that lasts until the start of its next turn."
+            },
+            "Feats":{
+              "ConsumePowerChat":"If this reaction prevents any damage, you gain a status bonus. NOT IN USE."
             }
           }
         },
