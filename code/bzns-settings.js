@@ -20,6 +20,16 @@ function registerSettings() {
     type: Boolean,
     default: false,
   });
+
+  game.settings.register(moduleId, "classSkillFeats", {
+    name: "Class Skill Feats",
+    hint: "Variant rule. Add 1st level (for variant rule feat), 3rd, 7th and 15th level skill feats. Skill feats rely on class skills (Arcana for Wizard, Society/methodology skill for Investigator, etc)",
+    scope: "world",
+    config: true,
+    requiresReload: true,
+    type: Boolean,
+    default: false,
+  });
 }
 
 function dev() {
@@ -28,24 +38,18 @@ function dev() {
 
 async function variantFeats() {
   const altArchetype = game.settings.get(moduleId, "altArchetype");
-  const skillArchetype = game.settings.get(
-    moduleId,
-    "skillArchetype",
-  );
+  const skillArchetype = game.settings.get(moduleId,"skillArchetype");
+  const classSkillFeats = game.settings.get(moduleId,"classSkillFeats");
 
 
   // Add campaign feat sections (if enabled)
-  if (altArchetype || skillArchetype) {
+  if (altArchetype || skillArchetype || classSkillFeats) {
     const campaignFeatSections = game.settings.get(
       "pf2e",
       "campaignFeatSections",
     );
     if (skillArchetype) {
-      if (
-        !campaignFeatSections.find(
-          (section) => section.id === "skillArchetypeClass",
-        )
-      ) {
+      if (!campaignFeatSections.find((section) => section.id === "skillArchetypeClass")) {
         campaignFeatSections.push({
           id: "skillArchetypeClass",
           label: "Alternative Archetype Progression with Skills",
@@ -62,6 +66,17 @@ async function variantFeats() {
           label: "Alternative Archetype Progression",
           supported: ["class"],
           slots: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19],
+        });
+      }
+    }
+
+    if (classSkillFeats) {
+      if (!campaignFeatSections.find((section) => section.id === "classSkillFeats")) {
+        campaignFeatSections.push({
+          id: "classSkillFeats",
+          label: "Class Skill Feats",
+          supported: ["skill"],
+          slots: [1, 3, 7, 15],
         });
       }
     }
@@ -92,13 +107,23 @@ async function variantFeats() {
     campaignFeatSections &&
     !skillArchetype &&
     campaignFeatSections.find(
-      (section) => section.id === "skillArchetypeClass",
-    )
+      (section) => section.id === "skillArchetypeClass")
   ) {
     campaignFeatSections.splice(
-      campaignFeatSections.findIndex(
-        (section) => section.id === "skillArchetypeClass",
-      ),
+      campaignFeatSections.findIndex((section) => section.id === "skillArchetypeClass"),
+      1,
+    );
+    await game.settings.set("pf2e", "campaignFeatSections", campaignFeatSections);
+  }
+
+  if (
+    campaignFeatSections &&
+    !skillArchetype &&
+    campaignFeatSections.find(
+      (section) => section.id === "classSkillFeats")
+  ) {
+    campaignFeatSections.splice(
+      campaignFeatSections.findIndex((section) => section.id === "classSkillFeats"),
       1,
     );
     await game.settings.set("pf2e", "campaignFeatSections", campaignFeatSections);
@@ -139,7 +164,8 @@ Hooks.on("renderCharacterSheetPF2e", async (data, html) => {
 
   const featGroupTraits = {
     "skillArchetypeClass": [classSlug, archetypeFeatSlug, skillSlug].filter(entry => entry.trim() != ''),
-    "altArchetypeClass": [classSlug, archetypeFeatSlug].filter(entry => entry.trim() != '')
+    "altArchetypeClass": [classSlug, archetypeFeatSlug].filter(entry => entry.trim() != ''),
+    "classSkillFeats": [skillSlug].filter(entry => entry.trim() != '')
   };
 
   for (const key in featGroupTraits) {
